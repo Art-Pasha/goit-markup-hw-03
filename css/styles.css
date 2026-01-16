@@ -111,6 +111,7 @@ ul {
 
 .address-link {
     font-style: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -137,11 +138,11 @@ ul {
 }
 
 .hero-title {
-    font-size: 56px;
     font-weight: 700;
+    font-size: 56px;    
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: #fff;
+    color: #ffffff;
     
     
 }
