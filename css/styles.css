@@ -77,11 +77,10 @@ ul {
 .header-container {
     display: flex;
     align-items: center;
-    padding-bottom: 24px;
-    padding-top: 24px;
 }
 
 .logo {
+    padding: 24px 0;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -104,6 +103,8 @@ ul {
 }
 
 .nav-link {
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -130,6 +131,8 @@ ul {
 }
 
 .contacts-link {
+    display: block;
+    padding: 24px 0;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
