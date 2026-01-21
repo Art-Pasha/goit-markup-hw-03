@@ -77,7 +77,8 @@ ul {
 .header-container {
     display: flex;
     align-items: center;
-    padding: 24px 15px;
+    padding-bottom: 24px;
+    padding-top: 24px;
 }
 
 .logo {
@@ -103,7 +104,6 @@ ul {
 }
 
 .nav-link {
-    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
