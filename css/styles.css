@@ -118,18 +118,18 @@ ul {
     color: #404bbf;
 }
 
-.address{
-    margin-left: 332px;
+.contacts{
+    margin-left: auto;
 }
 
-.address-list {
+.contacts-list {
     list-style: none;
     display: flex;
     gap: 40px;
     margin-left: auto;    
 }
 
-.address-link {
+.contacts-link {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -140,8 +140,8 @@ ul {
     transition: color 0.25s;
 }
 
-.address-link:hover,
-.address-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: #404bbf;
 }
 
@@ -235,9 +235,8 @@ ul {
         0 1px 1px rgba(46, 47, 66, 0.16), 0 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.team-info {
-    padding: 32px 0;
-    text-align: center;  
+.team-thumb{
+    margin: 32px 0px;
 }
 
 .team-name {
@@ -247,16 +246,13 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    margin-top: 32px;
 }
     
 
 .team-position {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-     margin-bottom: 32px;
-    
+    letter-spacing: 0.02em;    
 }
 
 /* ================================================ */
@@ -280,7 +276,7 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 32px 16px 8px ;
+    margin-bottom: 8px;
 }
 
 .portfolio-type {
@@ -288,12 +284,12 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding: 0px 0px 32px 16px;
 }
 .portfolio-thumb{
+    padding: 32px 16px;
     border-width: 0px 1px 1px 1px;
-        border-style: solid;
-        border-color: #E7E9FC;
+    border-style: solid;
+    border-color: #E7E9FC;
 }
 /* ================================================ */
 /* Footer                                           */
